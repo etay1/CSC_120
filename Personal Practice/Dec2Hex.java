@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Dex2Hex {
+    public static void main (String [] args) {
+        Scanner input = new Scanner (System.in);
+      
+        String h = "";
+        System.out.println ("Enter a base 10 number");
+        int d = input.nextInt ();
+      
+        while (d > 0)
+        {
+            int hexVal = d % 16;
+            char digit;
+            if (0 <= hexVal && hexVal <= 9)
+                digit = (char) (hexVal + '0');
+            else
+                digit = (char) (hexVal - 10 + 'A');
+            h  = digit + h;
+            d = d / 16;
+        }
+      
+        System.out.println ("The hex number is: " + h);
+    }
+}
