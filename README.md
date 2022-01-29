@@ -3,4 +3,4 @@ Introduction to Computing
 
 Labs and Assignments (Word Document)
 
-Personal solutions for my coursework
+Personal solutions - Java
