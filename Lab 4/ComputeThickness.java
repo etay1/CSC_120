@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class ComputeThickness {
-    public static void main(String [] args)
-    {
+    public static void main(String [] args) {
         //Required declerations for program
         int innerRadius;
         double innerArea;
