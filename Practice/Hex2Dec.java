@@ -8,8 +8,7 @@ public class H2D{
         System.out.println ("The decimal value is: " + d);
     }
 
-    public static int hex2Dec (String h)
-    {
+    public static int hex2Dec (String h) {
         int dec = 0;
         for (int i = 0; i < h.length (); i++)
         {
@@ -20,8 +19,7 @@ public class H2D{
         return dec;
     }
 
-    public static int hexChar2Dec (char c)
-    {
+    public static int hexChar2Dec (char c) {
         if (c >= 'A' && c <= 'F')
             return 10 + c - 'A';
         else
